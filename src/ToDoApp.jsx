@@ -34,7 +34,7 @@ const ToDoApp =()=>{
     
     return(
         <>
-        <Paper  elevation={3} style={{padding:"20px",paddingTop:"1px",minHeight:"100vh",margin:"0px"}}>
+        <Paper  elevation={3} style={{padding:"20px",paddingTop:"4px",minHeight:"50vh",margin:"0px"}}>
         <h1 
         style={{backgroundColor:"gray",
         color:"white",

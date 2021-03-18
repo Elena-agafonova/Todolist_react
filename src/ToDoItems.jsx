@@ -37,11 +37,11 @@ const ToDoItems =(props)=>{
          <span contentEditable={editBool} 
         
          
-         style={{textDecoration: line ? "line-through" : "none",fontSize:"20px",padding:"10px"}}>{props.addedItem}</span>
+         style={{textDecoration: line ? "line-through" : "none",fontSize:"30px",padding:"20px"}}>{props.addedItem}</span>
         </Box>
 
         <Box p={1} >
-        <Fab color="success" aria-label="complete" onClick={onLine} style={{backgroundColor:"#5cb85c",color:"white"}}>
+        <Fab color="success" aria-label="complete" onClick={onLine} style={{backgroundColor:"blue",color:"red"}}>
           <CheckIcon />
          </Fab>
         </Box>
